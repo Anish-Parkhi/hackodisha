@@ -1,0 +1,68 @@
+.homeMainContainer{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    align-self: center;
+    margin: auto;
+}
+.homeRightCaontainer{
+    flex-basis: 45%;
+    display: flex;
+    flex-direction: column;
+    padding: 5rem;
+    margin-left: 6rem;
+}
+.homeRightCaontainerHeader{
+    font-size: 3rem;
+    /* width: 60%; */
+    font-weight: 'bold';
+}
+.homeRightCaontainerSubHeader{
+    font-size: 1.4rem;
+    width: 100%;
+    color: #606060;
+}
+.homeRightCaontainerInfo{
+    display: flex;
+    flex-direction: row;
+    gap:2rem;
+}
+.languageContainer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: black;
+    font-size: 1.6rem;
+    margin-top: 1.5rem;
+    font-weight: bold;
+}
+.enrolNowContainer{
+    margin-top: 1.3rem;
+    color: black;
+}
+.homeLeftContainer{
+    background-color: #B7C9FF;
+    /* flex-basis: 50%; */
+    margin: 4rem;
+    border-radius: 3rem;
+    padding: 2rem;
+    flex-direction: column;
+    font-size: 1.8rem;
+    gap: 2rem;
+}
+.videoContainer{
+    display: flex;
+}
+.quizContainer{
+    display: flex;
+}
+.speechContainer{
+    display: flex;
+}
+.backgroundColor{
+    background-color: #C9F4ED;
+    padding: 2rem;
+    margin: 0.5rem;
+    border-radius: 1rem;
+    color: #7E5EBB;
+}

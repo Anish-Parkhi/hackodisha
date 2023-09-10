@@ -1,0 +1,25 @@
+.cardMainContainer{
+    width: 25%;
+    padding: 1.5rem;
+    background-color: #B7C9FF;
+    border-radius: 1.3rem;
+    flex-basis: 20%;
+    gap: 3rem;
+}
+.cardMainContainerHeader{
+    font-size:2rem;
+    font-weight: 'bold';
+}
+.cardMainContainerDescription{
+    font-size: 0.9rem;
+}
+.CourseList{
+    text-align: left;
+}
+.CourseListMainContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 6rem;
+    justify-content: center;
+}

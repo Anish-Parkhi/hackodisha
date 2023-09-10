@@ -1,0 +1,74 @@
+.middleContainerHeader {
+  font-size: 3em;
+  padding: 2rem;
+  font-weight: 500;
+}
+.middleContainer {
+  display: flex;
+  width: 100%;
+}
+.middleContainerList {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+  gap: 1rem;
+  font-size: 1.5rem;
+  margin-left: 1rem;
+}
+.quizBackground {
+  background-color: #b7c9ff;
+  width: 80%;
+  margin: auto;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+.quizTitle {
+  font-size: 2rem;
+  font-weight: 600;
+}
+.quizDescription {
+  font: 1.6rem;
+  margin-bottom: 1rem;
+}
+.questionText {
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+.optionsMain {
+  margin-bottom: 1rem;
+}
+.optionsContainer {
+  flex-basis: 40%;
+  padding: 0.8rem;
+  background-color: #c9f4ed;
+  border-radius: 1rem;
+  font-size: 1.5rem;
+}
+.optionsContainerMain {
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+  margin: auto;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+.submitButton{
+  background-color: #c9f4ed;
+  border-radius: 1rem;
+  padding: 0.9rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-top: 1rem;
+  cursor: pointer;
+  width: 20%;
+  text-align: center;
+  margin: auto;
+  margin-top: 7rem;
+}
+.score{
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 2rem;
+}
